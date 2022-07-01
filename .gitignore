@@ -135,3 +135,5 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio
 /app/src/main/res/values/strings.xml
+/app/google-services.json
+/app/proguard-rules.pro
