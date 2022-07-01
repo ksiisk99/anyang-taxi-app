@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#CBDCE0FA</color>
+    <color name="colorToolbar">#AEB9FF</color>
+    <color name="colorBtn">#AEB9FF</color>
+    <color name="colorEdit">#0A000000</color>
+    <color name="colorTosBtn">#0092FF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCheckbox">#4D000000</color>
+    <color name="colorNextbtn">#9FD1D7FF</color>
+    <color name="colorName">#3700B3</color>
+    <color name="colorStatebar">#AEB9FF</color>
+    <color name="colorUserName">#8DFF09</color>
+</resources>

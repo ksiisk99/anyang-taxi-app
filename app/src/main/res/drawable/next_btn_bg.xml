@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="@dimen/_27sdp"
+                android:width="@dimen/_27sdp">
+            </size>
+            <solid android:color="@color/colorToolbar"></solid>
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/item_padding"
+        android:left="@dimen/item_padding"
+        android:right="@dimen/item_padding"
+        android:top="@dimen/item_padding"
+        android:drawable="@drawable/ic_baseline_navigate_next_24">
+    </item>
+</layer-list>

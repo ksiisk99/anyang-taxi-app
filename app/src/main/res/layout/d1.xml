@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_260sdp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_7sdp"
+    android:layout_gravity="center"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timelayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/constraint2">
+            <TextView
+                android:fontFamily="@font/font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_17ssp"
+                android:text="@string/createroom_1"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="@+id/constraint2"
+                app:layout_constraintRight_toRightOf="@id/constraint2"
+                app:layout_constraintTop_toTopOf="@id/constraint2"></TextView>
+            <Button
+                android:fontFamily="@font/font"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:background="@drawable/ic_baseline_clear_24"
+                app:layout_constraintEnd_toEndOf="@+id/constraint2"
+                app:layout_constraintTop_toTopOf="@id/constraint2"
+                app:layout_constraintBottom_toBottomOf="@id/constraint2"
+                android:id="@+id/dialog_exitbtn"></Button>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"
+            android:id="@+id/timepicker"
+            android:fontFamily="@font/font"
+            ></TimePicker>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="@dimen/_12ssp"
+        android:text="@string/createroom_4"
+        app:layout_constraintTop_toBottomOf="@+id/timelayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        ></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/participatnlayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/createroom_btn"
+        android:layout_marginBottom="@dimen/_10sdp"
+        >
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:text="@string/createroom_2"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"></TextView>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/constraint"
+            >
+            <Button
+                android:fontFamily="@font/font"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/minus_btn_bg"
+                android:id="@+id/participant_minus"
+                app:layout_constraintLeft_toLeftOf="@+id/constraint"
+                app:layout_constraintBottom_toBottomOf="@+id/constraint"
+                ></Button>
+            <TextView
+                android:fontFamily="@font/font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="@dimen/_22ssp"
+                android:id="@+id/participant_screen"
+                app:layout_constraintLeft_toRightOf="@+id/participant_minus"
+                app:layout_constraintRight_toLeftOf="@+id/participant_plus"
+                app:layout_constraintTop_toTopOf="@+id/constraint"
+                app:layout_constraintBottom_toBottomOf="@+id/constraint"
+                ></TextView>
+            <Button
+                android:fontFamily="@font/font"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/plus_btn_bg"
+                android:id="@+id/participant_plus"
+                app:layout_constraintRight_toRightOf="@+id/constraint"
+                app:layout_constraintBottom_toBottomOf="@+id/constraint"
+                ></Button>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:fontFamily="@font/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createroom_3"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_20ssp"
+        android:id="@+id/createroom_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/main_btn_bg"
+        ></Button>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

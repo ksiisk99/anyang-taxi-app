@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_margin_leftandright">30dp</dimen>
+    <dimen name="login_margin_top">10dp</dimen>
+    <dimen name="login_padding_leftandright">25dp</dimen>
+
+    <dimen name="tos_margin_leftandright">20dp</dimen>
+    <dimen name="tos_margin_top">5dp</dimen>
+    <dimen name="tos_checkbox_margin_left">15dp</dimen>
+    <dimen name="tos_widthandheight">50dp</dimen>
+    <dimen name="tos_margin_left">10dp</dimen>
+
+    <dimen name="signup_textview_top">15dp</dimen>
+    <dimen name="signup_textview_margin_left">30dp</dimen>
+    <dimen name="signup_linear_margin_leftandright">20dp</dimen>
+    <dimen name="signup_margin_right">10dp</dimen>
+    <dimen name="signup_height">40dp</dimen>
+    <dimen name="signuo_height2">60dp</dimen>
+    <dimen name="signup_padding_left">20dp</dimen>
+    <dimen name="signup_padding_right">10dp</dimen>
+    <dimen name="signup_padding_right2">5dp</dimen>
+
+    <dimen name="main_margin_bottom">30dp</dimen>
+
+    <dimen name="chat_btn_margins">10dp</dimen>
+    <dimen name="chat_edit_margin_left">15dp</dimen>
+    <dimen name="chat_edit_margin_top">10dp</dimen>
+    <dimen name="chat_edit_margin_bottom">10dp</dimen>
+
+    <dimen name="room_width">70dp</dimen>
+    <dimen name="room_height">70dp</dimen>
+
+    <dimen name="createroom_btn">65dp</dimen>
+    <dimen name="createroom_btn2">34dp</dimen>
+    <dimen name="createroom_linear_width">330dp</dimen>
+    <dimen name="createroom_linear_height">550dp</dimen>
+    <dimen name="createroom_padding">10dp</dimen>
+
+    <dimen name="report_linear_height">450dp</dimen>
+
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="drawer_height">50dp</dimen>
+
+    <dimen name="logout_dialog_layout_width">300dp</dimen>
+    <dimen name="logout_dialog_layout_height">130dp</dimen>
+    <dimen name="logout_dialog_btn_width">130dp</dimen>
+    <dimen name="logout_dialog_btn_height">50dp</dimen>
+
+    <dimen name="report_dialog_height">80dp</dimen>
+    <dimen name="report_dialog_height2">100dp</dimen>
+
+    <dimen name="roomitem_corner">5dp</dimen>
+    <dimen name="roomitem_elevation">20dp</dimen>
+    <dimen name="roomitem_marginleft">10dp</dimen>
+    <dimen name="roomitem_margintop">15dp</dimen>
+
+    <dimen name="enterexit_margintop">8dp</dimen>
+    <dimen name="enterexit_padding">8dp</dimen>
+
+    <dimen name="message_margin_leftandright">5dp</dimen>
+    <dimen name="message_margin_top">8dp</dimen>
+    <dimen name="message_time_margin_bottom">1dp</dimen>
+    <dimen name="message_time_marginleftandright">3dp</dimen>
+    <dimen name="message_padding">70dp</dimen>
+    <dimen name="message_margins">4dp</dimen>
+
+    <dimen name="chat_radius">15dp</dimen>
+    <dimen name="btn_radius">20dp</dimen>
+    <dimen name="item_size">40dp</dimen>
+    <dimen name="item_padding">2dp</dimen>
+    <dimen name="edit_radius">20dp</dimen>
+
+
+
+
+    <dimen name="toolbar_text">30sp</dimen>
+
+    <dimen name="login_text">25sp</dimen>
+
+    <dimen name="tos_text">20sp</dimen>
+
+    <dimen name="signup_text">15sp</dimen>
+
+    <dimen name="userlist_text">34sp</dimen>
+    <dimen name="userlist_name">28sp</dimen>
+
+    <dimen name="chat_text">15sp</dimen>
+    <dimen name="chat_time_text">12sp</dimen>
+    <dimen name="chat_name_text">13sp</dimen>
+
+    <dimen name="progress_text">18sp</dimen>
+
+    <dimen name="room_title">26sp</dimen>
+    <dimen name="room_participant">36sp</dimen>
+</resources>
